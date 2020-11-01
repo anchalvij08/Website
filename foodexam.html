@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My website</title>
+	<meta charset="utf-8">
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="websitestyle.css">
+  	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+   <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+	<style type="text/css">
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect .overlay {
+  position: absolute;
+  overflow: hidden;
+  width: 80%;
+  height: 80%;
+  left: 10%;
+  top: 10%;
+  border-bottom: 1px solid #FFF;
+  border-top: 1px solid #FFF;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0,1);
+  -ms-transform: scale(0,1);
+  transform: scale(0,1);
+}
+
+.hovereffect:hover .overlay {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+.hovereffect:hover img {
+  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.6" /><feFuncG type="linear" slope="0.6" /><feFuncB type="linear" slope="0.6" /></feComponentTransfer></filter></svg>#filter');
+  filter: brightness(0.6);
+  -webkit-filter: brightness(0.6);
+}
+
+.hovereffect h2 {
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  background-color: transparent;
+  color: #FFF;
+  padding: 1em 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,-100%,0);
+  transform: translate3d(0,-100%,0);
+}
+
+.hovereffect a, .hovereffect p {
+  color: #FFF;
+  padding: 1em 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,100%,0);
+  transform: translate3d(0,100%,0);
+}
+
+.hovereffect:hover a, .hovereffect:hover p, .hovereffect:hover h2 {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+img{
+	margin-bottom: 20px;
+	height: 100px;
+	width: 100%;
+}
+body{
+	background-image: url(agra2.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+	</style>
+
+</head>
+<body>
+	<header>
+    <nav>
+      <div class="logo"><h1 class="animate__animated animate__swing" style="font-size: 60px; text-align: center; font-weight: 600"> FOODRAVEL</h1></div>
+      <div class="menu" style="font-size: 20px;">
+        <a href="index.html">Home</a>
+        <a href="trav.html">Travel</a>
+        <a href="foodexam.html">Food</a>
+        <a href="aboutus.html">About us</a>
+        <a href="contact.html">Contact</a>
+      </div>
+  </nav>
+<br>
+	<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+    <div class="hovereffect">
+        <img class="img-responsive" src="ro.jpg" alt="" height="300px">
+            <div class="overlay">
+                <h2>The Royal Biryani</h2>
+				<p>Expecting a well prepared Biryani is like expecting honesty in Today’s World - both are rarely found
+
+Talking about the Mutton Biryani served by @agrabiryanihotspot we must acknowledge that it was a pretty decent preparation albeit a little less spicy to what we usually go for.
+				</p>
+            </div>
+    </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+    <div class="hovereffect">
+        <img class="img-responsive" src="mol13.jpg" alt="" height="50px">
+            <div class="overlay">
+                <h2>Molecule</h2>
+				<p>When we talk about the best Cafe/Bar/Place visiting by both friends and family @moleculeagra is right up there we had the pleasure to experience the magic yet again😍
+
+The place is equipped with all the safety protocols and sanitising every table and its surrounding area before/after dining in is something that religiously follow👍🏼
+
+The Dahi ke kebabs (in frame), paalak ke patte ki chaat and the Air Bread were all pretty decent.
+            </div>
+    </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+    <div class="hovereffect">
+        <img class="img-responsive" src="emar1.jpg" alt="">
+            <div class="overlay">
+                <h2>Emarti</h2>
+				<p>Weekends are the days to enjoy and with lockdown coming to an end for Saturdays from Today, we wanted to make the most of it ❤️
+
+Place : Raj Milk Product & Sweets, Shamshabad Road, Agra.
+Pricing : 400 Rs/Kg for Imarti
+				</p>
+            </div>
+    </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+    <div class="hovereffect">
+        <img class="img-responsive" src="ms12.jpg" alt="">
+            <div class="overlay">
+                <h2>Mud Shakes</h2>
+				<p>The cute little outlet continues to impress❤️
+
+The Cheese sandwich in the frame is one of the best sandwiches you could get in the City😍
+
+Perhaps the only place in the City that is still overflowing with people in the current situation🤩🙃 @themudshakes 
+
+Sandwich 🥪was spicy and having it with a shake is definitely recommended
+				</p>
+            </div>
+    </div>
+</div>
+<hr>
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+    <div class="hovereffect">
+        <img class="img-responsive" src="dj1.jpg" alt="">
+            <div class="overlay">
+                <h2>Djlecious</h2>
+				<p>@djleciousbydivya is a cute little outlet on the Church road serving some fab bakery items both savouries and sweets. The pricing is pretty reasonable and they even have a small seating space too while they deliver all over the city through third party delivery partners😍
+
+Get your sweet or savoury fix now💕
+				</p>
+            </div>
+    </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+    <div class="hovereffect">
+        <img class="img-responsive" src="hr1.jpg" alt="">
+            <div class="overlay">
+                <h2>Haldiraam</h2>
+				<p>In the Corona times that we are living in, it’s a bit of a gamble to launch a new outlet however from we have seen during our recent outing, the timing seems to be working pretty well for @haldirams_official to be in our City❤️
+				</p>
+            </div>
+    </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+    <div class="hovereffect">
+        <img class="img-responsive" src="bk.jpg" alt="">
+            <div class="overlay">
+                <h2>Badhai Kachori</h2>
+				<p>Bedai - A deep fried snack usually stuffed with lentils is the speciality breakfast of Agra, eaten with a spicy potato based gravy which is further complemented by a sweet jalebi right at the end of the meal.
+
+				</p>
+            </div>
+    </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+    <div class="hovereffect">
+        <img class="img-responsive" src="br1.jpg" alt="">
+            <div class="overlay">
+                <h2>The Mad Batter</h2>
+				<p>OBSESSED WITH CARAMEL fudgy brownies✨<br>
+
+By Geeta Mahajan @themadbatter_agra
+				</p>
+            </div>
+    </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+    <div class="hovereffect">
+        <img class="img-responsive" src="ekn.jpg" alt="">
+            <div class="overlay">
+                <h2>Ek Number</h2>
+				<p>Is your soul thirsty for some delish drinks & food? // With colourful walls & outdoor seating, #EkNumber has the most welcoming ambiance and of course, an exotic menu!
+				</p>
+            </div>
+    </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+    <div class="hovereffect">
+        <img class="img-responsive" src="cr.jpg" alt="">
+            <div class="overlay">
+                <h2>The Chocolate Room</h2>
+				<p>Find the best dessets at Chocolate Room at SRK Omaxe Mall.
+				</p>
+            </div>
+    </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+    <div class="hovereffect">
+        <img class="img-responsive" src="cpri.jpg" alt="">
+            <div class="overlay">
+                <h2>Capri</h2>
+				<p>@caprirestaurantagra The OG in chicken and all things amazing 😎 TAG somebody you'd love to finish this absolutely yummy meal with!
+				</p>
+            </div>
+    </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+    <div class="hovereffect">
+        <img class="img-responsive" src="da.jpg" alt="">
+            <div class="overlay">
+                <h2>Puspak Mistan Bhandar</h2>
+				<p>दही जलेबी🔥
+यहाँ पिघलना तो बनता है 😍
+📍pusphpak sweets phulati bazar
+				</p>
+            </div>
+    </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+    <div class="hovereffect">
+        <img class="img-responsive" src="mo.jpg" alt="">
+            <div class="overlay">
+                <h2>Momories</h2>
+				<p>PEOPLE MAKE MEMORIES, BUT 
+I MAKE MOMORIES😍🔥
+📸 TANDOORI CHICKEN MOMOS💕
+📍 @my.place.agra
+				</p>
+            </div>
+    </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+    <div class="hovereffect">
+        <img class="img-responsive" src="gs.jpg" alt="">
+            <div class="overlay">
+                <h2>Greener Side</h2>
+				<p>Tried this beautifully colored psychedelic fries! 💙
+You'll fall in love with the color first and of course then with taste. 💯
+Place🚦- @the_greener_side_
+				</p>
+            </div>
+    </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+    <div class="hovereffect">
+        <img class="img-responsive" src="fal.jpg" alt="">
+            <div class="overlay">
+                <h2>Faaloda</h2>
+				<p>CRAVING FOR THIS RIGHT NOW❤️🤤
+Location📍- sindhi faaloda kulfi sindhi bazar, church road 
+				</p>
+            </div>
+    </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+    <div class="hovereffect">
+        <img class="img-responsive" src="amr.jpg" alt="">
+            <div class="overlay">
+                <h2>The Amritsari Kulchha Junction</h2>
+				<p>What's would you pick first? 💕💕
+Soya Chaap Platter🤤😍OR Amritsari Kulcha Thaali🔥🥰
+place📍- @amritsarikulchajunction
+				</p>
+            </div>
+    </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+    <div class="hovereffect">
+        <img class="img-responsive" src="ju.jpg" alt="">
+            <div class="overlay">
+                <h2>Jux Pux</h2>
+				<p>Never ending love for OREO SHAKE❤️🥰
+@juxpux_sanjay_palace
+				</p>
+            </div>
+    </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+    <div class="hovereffect">
+        <img class="img-responsive" src="rol.jpg" alt="">
+            <div class="overlay">
+                <h2>Rolls Cavalry</h2>
+				<p>Thanks @rollscavalry.agra for sending these amazing rolls.
+Made my Saturday evening lit 💯
+				</p>
+            </div>
+    </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+    <div class="hovereffect">
+        <img class="img-responsive" src="lig.jpg" alt="">
+            <div class="overlay">
+                <h2>Lights Out Cafe</h2>
+				<p>I’m crazily drooling over these seekh kebabs & Chicken tikkas 🤤
+Place📍- @lightsoutcafe.agra •
+				</p>
+            </div>
+    </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+    <div class="hovereffect">
+        <img class="img-responsive" src="mu.jpg" alt="">
+            <div class="overlay">
+                <h2>Munchies</h2>
+				<p>
+					
+PIZZA SPEAKS LOUDER THAN WORDS. 💯 
+Place📍- @munchiesfb
+				</p>
+            </div>
+    </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+    <div class="hovereffect">
+        <img class="img-responsive" src="bq.jpg" alt="">
+            <div class="overlay">
+                <h2>Baebeque Nation</h2>
+				<p>				
+On My Plate- Crispy masala Corns,exotic potato, Tandoori Chicken, mutton kebab
+Place- @barbequenation
+				</p>
+            </div>
+    </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+    <div class="hovereffect">
+        <img class="img-responsive" src="kw.jpg" alt="">
+            <div class="overlay">
+                <h2>Kiskey Whiskey</h2>
+				<p>Appetizers Goals❤️😍
+Place- @kiskeywhiskey
+				</p>
+            </div>
+    </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+    <div class="hovereffect">
+        <img class="img-responsive" src="bee.jpg" alt="">
+            <div class="overlay">
+                <h2>Beep Uncensored</h2>
+				<p>Beep overloaded nachos can be a great option for quick munchies 🔥
+				</p>
+            </div>
+    </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+    <div class="hovereffect">
+        <img class="img-responsive" src="af.jpg" alt="">
+            <div class="overlay">
+                <h2>The Atlantic Foods</h2>
+				<p>This is a picture of a birthday cake for an inspirational singer.
+				</p>
+            </div>
+    </div>
+</div>
+</header>
+</body>
+</html>
